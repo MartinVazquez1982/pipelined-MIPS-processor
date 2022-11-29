@@ -1,0 +1,124 @@
+timestamp=1669692263600
+
+[~A]
+ModifyID=1
+Version=74
+
+[~MFT]
+0=63|0work.mgf|29674|0
+1=9|1work.mgf|29819|0
+3=8|3work.mgf|9319|0
+
+[alu]
+A/logic_alu=A/logic_ALU 21|../ALU.vhd|16|1*1355
+BinL64/logic_alu=3*1164
+I=0*5624
+I/logic_alu=I/logic_ALU 0*6869
+M=11|1|vf0|1669692263540|../ALU.vhd|0*5175*0x129588f883dca7ebc6bd103e2050a563d45a360d|0*5557*0xd986fd7175c8cf28cd774bcadde79966
+M/logic_alu=M/logic_ALU 21|1|vf0|1669692263542|../ALU.vhd|0*5896*0xa08fd1ca1eb433fa4ec93103385dffa5c1ef4a0e|0*6789*0xb966535deb9617f745ced53ae4cc1a7f
+R=../ALU.vhd|6
+Version=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|fdc9c85601beb4171a6a25c637e2168e8363b42faddd11aaf8c59e53c48f6a2b
+Version/logic_alu=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|6b9431968524b3ee26c97f13cf030062554539ac1639ca4f5406242b190fabcbce9ca9602f01bd03f62ada60b3290d0a
+
+[alucontrol]
+A/logic_alucontrol=A/logic_ALUControl 21|../ALUControl.vhd|14|1*2797
+BinL64/logic_alucontrol=3*2217
+I=0*7801
+I/logic_alucontrol=I/logic_ALUControl 0*8978
+M=11|1|vf0|1669692263549|../ALUControl.vhd|0*7368*0xbcd7cf5c7aa1fb800be312e5eabc679ca3a8a5a5|0*7720*0xd986fd7175c8cf28cd774bcadde79966
+M/logic_alucontrol=M/logic_ALUControl 21|1|vf0|1669692263551|../ALUControl.vhd|0*8080*0x05311e53a2badbc0c5cc3e5b48b4283d700ca72e|0*8877*0xb966535deb9617f745ced53ae4cc1a7f
+R=../ALUControl.vhd|6
+Version=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|aa09c1e8db4c020f28d40530aa626227192f9af8b23444367235f288dd5083ebf6691e9eda83d8201a3f4bec41e6c47f
+Version/logic_alucontrol=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|33e14b9015d137eb7cc9d73ea1b6fdad06f5cfee668442b26cb22f4768b6a3bebb026b93fcc61f43aa4757445a802364
+
+[controlunit]
+A/logic_controlunit=A/Logic_ControlUnit 21|../ControlUnit.vhd|21|1*0
+BinL64/logic_controlunit=3*0
+I=0*2119
+I/logic_controlunit=I/Logic_ControlUnit 0*4661
+M=11|1|vf0|1669692263515|../ControlUnit.vhd|0*1496*0x76567a5961a165034458229b09dd2d9c8c88ca0d|0*2036*0xd986fd7175c8cf28cd774bcadde79966
+M/logic_controlunit=M/Logic_ControlUnit 21|1|vf0|1669692263517|../ControlUnit.vhd|0*2399*0xbf36f87077c6d6da2434e0521dfb33569b85d4eb|0*4557*0xb966535deb9617f745ced53ae4cc1a7f
+R=../ControlUnit.vhd|6
+Version=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|49bc9eef0cc431a4d98f9f55b61f1581a1b72c74b362bfaf9c7235d71f436ac26e02f655abc7066703e5e41f025b2325
+Version/logic_controlunit=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|9b671e43e511a3bb7ff500a758de05dffd1c2043f60ceccb3f9a9e4fced547d207fee4e3283186e5e44fee760d48e818
+
+[forwardingunit]
+A/logic_forwardingunit=A/Logic_ForwardingUnit 21|../ForwardingUnit.vhd|14|1*9185
+BinL64/logic_forwardingunit=3*4425
+I=0*14211
+I/logic_forwardingunit=I/Logic_ForwardingUnit 0*15664
+M=11|1|vf0|1669692263567|../ForwardingUnit.vhd|0*13706*0xa123ad173ca5bf2a647bae3db0814d849d436dae|0*14122*0xd986fd7175c8cf28cd774bcadde79966
+M/logic_forwardingunit=M/Logic_ForwardingUnit 21|1|vf0|1669692263569|../ForwardingUnit.vhd|0*14494*0x9208d59a1bd19a43c482e3735a9b34e68a13e3e5|0*15551*0xb966535deb9617f745ced53ae4cc1a7f
+R=../ForwardingUnit.vhd|6
+Version=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|1845653fec4868b1066887ad370f1af1ce246c2ee4246beb9eccd6287361a697361a9f7d6f2f08e586ff4df0dc3b4664
+Version/logic_forwardingunit=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|36496e3da0d4c7cdbd2eabbc412d9d85b56498a641f2eb6b93408840c4239c273511c06d1c892c2de30ee51991f34283
+
+[hazarddetecunit]
+A/logic_hazarddetecunit=A/Logic_HazardDetecUnit 21|../HazardDetecUnit.vhd|14|1*8027
+BinL64/logic_hazarddetecunit=3*3852
+I=0*12113
+I/logic_hazarddetecunit=I/Logic_HazardDetecUnit 0*13152
+M=11|1|vf0|1669692263561|../HazardDetecUnit.vhd|0*11618*0x970aa835b6d1caa6bcfe8bab6920d086e42c38fb|0*12022*0xd986fd7175c8cf28cd774bcadde79966
+M/logic_hazarddetecunit=M/Logic_HazardDetecUnit 21|1|vf0|1669692263563|../HazardDetecUnit.vhd|0*12397*0x7d765c455c7316308de12b14318cd5dc0334b55e|0*13036*0xb966535deb9617f745ced53ae4cc1a7f
+R=../HazardDetecUnit.vhd|6
+Version=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|7863a2dc936d0526534b2988f245fdad727de4587ed694d623193d49cd1cc9cf3f08d80d4c9ca536f99b2b447556cae5
+Version/logic_hazarddetecunit=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|49ca2c9a9b170681e46a3eecd75ece2e0bf84c1c47775d33bf3df6de987401dbeb410655c7cb0289edac509ff202791b
+
+[memory]
+I=0*881
+M=11|1|vf0|1669692263512|../Memory.vhd|0*275*0x180c92d0a44ecb28f581872269188e66d95c21a2|0*808*0xd986fd7175c8cf28cd774bcadde79966
+R=../Memory.vhd|16
+Version=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|fce057f312e65ae91f0ff41fc8956633674887a36273c50999697ecb6776d90c
+
+[processor]
+A/processor_arq=21|../design.vhd|25|1*10958
+BinL64/processor_arq=3*5240
+I=0*16884
+I/processor_arq=0*25415
+M=11|1|vf0|1669692263573|../design.vhd|0*16224*0x3cd58e2f0a94b08f948ceeea485743f83ad1dc1f|0*16808*0xd986fd7175c8cf28cd774bcadde79966
+M/processor_arq=21|1|vf0|1669692263576|../design.vhd|0*17168*0x24ecdf5c54dddf38ae8580cf510718e647ed5088|0*25322*0xb966535deb9617f745ced53ae4cc1a7f
+R=../design.vhd|6
+Version=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|0ba77dee7e73996b5655ae47cd2cf07e7c4c90057ca4c0d4118ab0a74744833612532bad0433cc02d9582f239c8c7867
+Version/processor_arq=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|d9d0928156106e67b197f2c0a3d3b3a1838f8758a5fd1f563a2b1f3c97f77cb1966d138a8ed2e2824d273cfc828d0941
+
+[processor_tb]
+A/processor_tb_arq=21|../testbench.vhd|34|1*25473
+BinL64/processor_tb_arq=3*9319
+I=0*26398
+I/processor_tb_arq=0*28908
+M=11|1|vf0|1669692263591|../testbench.vhd|0*26040*0x3f83cacc73c73e8ad53fec3fc7863e13bcbec1b6|0*26316*0xd986fd7175c8cf28cd774bcadde79966
+M/processor_tb_arq=21|1|vf0|1669692263593|../testbench.vhd|0*26682*0xb8d032a13191d597d58f6114139c74052f117b12|0*28806*0xb966535deb9617f745ced53ae4cc1a7f
+R=../testbench.vhd|31
+Version=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|520fc2cd04c0649ab816729476a27aaac0ff7f5d7d907d14f4d8748f44154fc1530600931901bc4f59e393e5be83dfe4
+Version/processor_tb_arq=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|2674bae3410b7b105c94ec1cbd7b8edee8aaeac2d7b5d90a8488661d7546d4508d914264b16963d759ac85136e42b71e
+
+[registers]
+A/logic_registers=21|../registers.vhd|15|1*3946
+BinL64/logic_registers=3*2944
+I=0*10003
+I/logic_registers=0*11064
+M=11|1|vf0|1669692263555|../registers.vhd|0*9509*0x4bf0d4576819748c4178eb73e82cf6f7be6306b5|0*9924*0xd986fd7175c8cf28cd774bcadde79966
+M/logic_registers=21|1|vf0|1669692263557|../registers.vhd|0*10281*0x10fab8cfbfae0863aef08fa9a680329ffd1c0b6b|0*10966*0xb966535deb9617f745ced53ae4cc1a7f
+R=../registers.vhd|6
+Version=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|2314fdb2a4dd7301b5d97b47fbce135ee711739d3258eb7291525b46820d6d99604e31af2f6cc398b8c1f92795add7da
+Version/logic_registers=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|3324176af4fa06c4ad1008498a7dcd8868c7b19a21812f3bf4cd4c382f5f01ba44d2e802ede6d3df0eb964696faec6f0
+
+[testbench_for_procesador]
+Configures=processor_tb.processor_tb_arq
+E=1*29819
+I=0*29674
+M=2|1|vf0|1669692263597|../testbench.vhd|0*29277*0x0f0c07bc24ad31c6156a3c8465be16772d54ecdd|0*29565*0xb966535deb9617f745ced53ae4cc1a7f
+R=../testbench.vhd|157
+Version=2022.04.117 (Linux64)|00000006789c53d0353230b0000003970118|5efd636a07bb57613e35fadc81a5c3e5e31d32d18e78bc1055a6f22705b03dbb386054c0d718a950b64b0883904ec50ae2ea62f3a7e807c8f21ff7bfcab3815e
+
+[~U]
+alu=ALU 11|0*4959|
+alucontrol=ALUControl 11|0*7151|
+controlunit=ControlUnit 11|0*1227|
+forwardingunit=ForwardingUnit 11|0*13458|
+hazarddetecunit=HazardDetecUnit 11|0*11358|
+memory=Memory 11|0*0|
+processor=11|0*15968|
+processor_tb=11|0*25910|
+registers=11|0*9274|
+testbench_for_procesador=2||
